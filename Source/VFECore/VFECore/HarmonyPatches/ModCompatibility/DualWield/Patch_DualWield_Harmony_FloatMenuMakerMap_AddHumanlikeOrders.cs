@@ -21,9 +21,9 @@ namespace VFECore
 
             public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
             {
-                #if DEBUG
-                    Log.Message("DualWield.Harmony.FloatMenuMakerMap_AddHumanlikeOrders.manual_Postfix transpiler start (1 match todo)");
-                #endif
+#if DEBUG
+                    Log.Message("DualWield.HarmonyInstance.FloatMenuMakerMap_AddHumanlikeOrders.manual_Postfix transpiler start (1 match todo)");
+#endif
 
 
                 var instructionList = instructions.ToList();
@@ -37,9 +37,9 @@ namespace VFECore
 
                     if (instruction.opcode == OpCodes.Ldloc_S && instruction.operand is LocalBuilder lb && lb.LocalIndex == 12)
                     {
-                        #if DEBUG
-                            Log.Message("DualWield.Harmony.FloatMenuMakerMap_AddHumanlikeOrders.manual_Postfix match 1 of 1");
-                        #endif
+#if DEBUG
+                            Log.Message("DualWield.HarmonyInstance.FloatMenuMakerMap_AddHumanlikeOrders.manual_Postfix match 1 of 1");
+#endif
 
 
                         yield return instruction;

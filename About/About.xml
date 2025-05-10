@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Vanilla Expanded Framework</name>
+	<name>Vanilla Expanded Framework - Forked</name>
 	<author>Oskar Potocki, XeoNovaDan, Orion, Kikohi, Taranchuk, Sarg Bjornson, Erdelf</author>
 	<url></url>
 	<description>Vanilla Expanded Framework incorporates a multitude of functionalities for different mods in order for us to boost performance by not duplicating code across several mods. Examples of shared functionality include custom base generation code with an amazing building export tool, customisable sieges, faction-based pack animal textures, faction based apparel colouring system, Orion’s Faction Discovery revamped and improved, Item processor code, shields, and many, many others.
